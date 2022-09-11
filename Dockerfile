@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y curl
 RUN curl http://archive.raspberrypi.org/debian/raspberrypi.gpg.key --output raspi.gpg.key && apt-key add raspi.gpg.key
 RUN echo "deb http://archive.raspberrypi.org/debian/ ${BUILDER_TAG} main" > /etc/apt/sources.list.d/raspi.list
 RUN apt-get update && apt-get install -y \
+    git \
     libraspberrypi-dev \
     libcec-dev \
     libp8-platform-dev \

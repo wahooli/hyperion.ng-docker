@@ -1,4 +1,3 @@
-source/.git
 source/.ci
 source/.github
 source/.vs
@@ -6,14 +5,10 @@ source/.vscode
 source/.gitignore
 source/.gitmodules
 source/.lgtm.yml
-source/.version
-source/**/.git
 source/**/.bazelci
 source/**/..readthedocs.yml
 source/**/.ci
 source/**/.github
 source/**/.vs
 source/**/.vscode
-source/**/.gitignore
-source/**/.gitmodules
 source/**/.lgtm.yml
