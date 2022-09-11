@@ -43,6 +43,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 ENV PATH="${PATH}:/opt/"
+ENV PYTHONHOME=/usr/local
 
 COPY --from=builder /opt /opt
 WORKDIR /hyperion
